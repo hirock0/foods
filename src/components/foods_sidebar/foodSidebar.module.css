@@ -1,0 +1,6 @@
+.foodSidebarClass{
+   @apply fixed top-24 bg-red-300 left-0 h-full;
+   transform: translateX(-200px);
+   transition: all .5s;
+
+}

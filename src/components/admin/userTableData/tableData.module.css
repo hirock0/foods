@@ -1,0 +1,36 @@
+#userInformations{
+
+}
+@media (max-width:600px) {
+    #userInformations{
+        font-size: 10px;
+    }
+}
+
+#email{
+
+}
+@media (max-width:600px) {
+
+    #email{
+        font-size: 10px;
+        padding: 0;
+        padding-left: 5px;
+    }
+    #photos{
+        
+    }
+    #headerText{
+        font-size: 8px;
+        padding: 0;
+    }
+    #delBtN{
+        padding-left: 0;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    #Username{
+        font-size: 10px;
+    }
+    
+}

@@ -2,26 +2,113 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+   
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+#home_page{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(75, 72, 72);
+
+}
+#home_div{
+    display: flex;
+    flex: 1;
+    background-color: white;
+}
+#home_bottom{
+    background: linear-gradient(rgba(255, 255, 255, 0.288),rgba(0, 0, 0, 0.432),rgba(0, 0, 0, 0.192)), url("https://cdn.pixabay.com/photo/2021/05/31/01/10/fried-rice-6297407_1280.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+#buybtn{
+    border-radius: 25px;
+}
+#fruits{
+    rotate: -30deg;
+
+}
+#downarrow{
+    transition: all .2s;
+}
+#userdets{
+   
+}
+#userdets{
+    
+}
+@media (max-width:600px) {
+    #contact{
+        font-size: 10px;
+
+    }
+    #text-right{
+        font-size: 10px;
+    }
+}
+@media (min-width:600px) {
+    #contact{
+        font-size: 10px;
+    }
+    #text-right{
+        font-size: 12px;
+    }
+}
+@media (min-width:768px) {
+    #contact{
+        font-size: 15px;
+    }
+    #text-right{
+        font-size: 15px;
+    }
+}
+@media (min-width:991px) {
+    #contact{
+        
+    }
+    #text-right{
+        font-size: 15px;
+    }
+}
+@media (min-width:1250px) {
+    #contact{
+        
+    }
+    #text-right{
+        font-size: 17px;
+    }
+}
+
+.loginmainDiv{
+ background-color: rgba(0, 0, 0, 0.397);
+}
+
+
+#main{
+    background-color: rgb(29, 21, 21);
+}
+#loader{
+    border: solid 20px rgb(255, 255, 255);
+    border-radius: 100%;
+    border-top: solid 20px rgb(2, 4, 138);
+    animation: rotated  2s infinite;
+    
+}
+@keyframes rotated {
+        from{
+            transform: rotate(0turn);
+        }to{
+            
+            transform: rotate(2turn);
+        }
 }

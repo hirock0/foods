@@ -1,0 +1,48 @@
+#main{
+    background:linear-gradient(rgba(255, 255, 255, 0.623),rgba(0, 0, 0, 0.452),rgba(255, 238, 1, 0.26)), url(https://cdn.pixabay.com/photo/2016/05/05/11/22/computer-1373684_640.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+@media (max-width:600px) {
+    #signupalatediv{
+      width: 90%;
+      padding: 40px;
+
+    }
+    #form{
+        gap: 10px;
+        font-size: 12px;
+    }
+    #spanall{
+
+    }
+    #gender{
+        padding-left: 0;
+        gap: 0;
+        font-size: 10px;
+        justify-content: end;
+        display: flex;
+      
+    }
+    #inp{
+        height: 25px;
+        width: 110px;
+    }
+    #signupBtn{
+        height: 30px;
+    }
+    #policyText{
+        font-size: 6px;
+        padding-left: 20px;
+        
+    }
+    #policyspan{
+        gap: 0px;
+    }
+    #policy{
+        font-size: 10px;
+    }
+    
+
+}

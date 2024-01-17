@@ -1,0 +1,39 @@
+#variousfood li:hover{
+    text-decoration: underline orange 4px;
+    text-underline-offset: 100%;
+}
+@media (max-width:600px) {
+    #variousfood{
+        font-size: 12px;
+        gap: 10px;
+    }
+    #variousfood li:hover{
+        text-decoration: underline orange 2px;
+        text-underline-offset: 100%;
+    }
+    #menu_line{
+        height: 20px;
+    }
+}
+@media (min-width:600px) {
+
+    #variousfood li:hover{
+        text-decoration: underline orange 2px;
+        text-underline-offset: 100%;
+    }
+}
+@media (min-width:768px) {
+
+    #variousfood li:hover{
+        text-decoration: underline orange 4px;
+        text-underline-offset: 100%;
+    }
+}
+@media (min-width:991px) {
+
+
+}
+@media (min-width:1250px) {
+
+
+}
